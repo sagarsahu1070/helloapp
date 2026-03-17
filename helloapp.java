@@ -1,11 +1,10 @@
-class helloapp {
-    public static void main(String args[]) {
-        
-        if(args.length > 0) {
+public class helloapp {
+    public static void main(String[] args) {
+        // Check if the user actually provided an argument
+        if (args.length > 0) {
             System.out.println("Hello " + args[0]);
-        } 
-        else {
-            System.out.println("Hello");
+        } else {
+            System.out.println("Hello! (Tip: Try passing a name as an argument next time).");
         }
 
     }
