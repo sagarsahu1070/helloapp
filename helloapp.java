@@ -1,3 +1,4 @@
+
 class helloapp {
     public static void main(String args[]) {
 
@@ -9,8 +10,6 @@ class helloapp {
             }
         } 
         else {
-            System.out.println("Hello ");
-        }
-
+            System.out.println("Hello ");}
     }
 }
