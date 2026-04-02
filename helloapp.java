@@ -1,15 +1,15 @@
 
-class helloapp {
-    public static void main(String args[]) {
+public class helloapp {
+    public static void main(String[] args) {
 
-        if(args.length > 0) {
-            System.out.print("Hello ");
-            
-            for(int i = 0; i < args.length; i++) {
-                System.out.print(args[i] + " ");
+        // Check if arguments are passed
+        if (args.length > 0) {
+            // Enhanced for loop to iterate through arguments
+            for (String name : args) {
+                System.out.println("Hello " + name);
             }
-        } 
-        else {
-            System.out.println("Hello ");}
+        } else {
+            // Default message if no arguments are provided
+            System.out.println("Hello User");
+        }
     }
-}
